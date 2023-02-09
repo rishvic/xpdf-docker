@@ -16,8 +16,20 @@ Their `Dockerfile` are present in their respective directories in [dockerfiles/]
 directory.
 
 The repository is packaged with a [`Makefile`](Makefile) for easier building of
-the images. To build any image, run `make <flavor-name>` to build the
-corresponding image. Running just `make` builds all the images.
+the images. To build any image, run the following command:
+
+```shell
+make <flavor-name>
+
+# Eg. if building the focal/afl profile
+make focal/afl
+
+# If you want to build all the images
+make
+```
+
+This will generate a Docker image `interiit/xpdf:4.04-<flavor>`. Running just
+`make` builds all the images.
 
 ## Checking Integrity 🔍
 
