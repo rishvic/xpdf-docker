@@ -19,7 +19,7 @@ The repository is packaged with a [`Makefile`](Makefile) for easier building of
 the images. To build any image, run the following command:
 
 ```shell
-make <flavor-name>
+make '<flavor-name>'
 
 # Eg. if building the focal/afl profile
 make focal/afl
