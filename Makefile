@@ -38,4 +38,4 @@ $(XPDF_SRC):
 
 $(SAMPLE_PDFS):
 
-.PHONY: all images $(IMAGE_VERSIONS) check check-sha256
+.PHONY: all images $(IMAGE_FLAVORS) check check-sha256
