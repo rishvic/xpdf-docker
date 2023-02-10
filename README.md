@@ -7,9 +7,9 @@ version 4.04, which is vulnerable to [CVE-2022-30524](https://nvd.nist.gov/vuln/
 
 This repository contains the image in 2 flavours:
 
-- _bullseye/gcc_: Debian "bullseye", built with gcc
-- _bullseye/afl_: Debian "bullseye", built with afl-clang-fast++ (debug profile)
-- _focal/afl_: Ubuntu 20.04 LTS (Focal Fossa), built with afl-clang-fast++
+- **bullseye/gcc**: Debian "bullseye", built with gcc
+- **bullseye/afl**: Debian "bullseye", built with afl-clang-fast++ (debug profile)
+- **focal/afl**: Ubuntu 20.04 LTS (Focal Fossa), built with afl-clang-fast++
   (debug profile)
 
 Their `Dockerfile` are present in their respective directories in [dockerfiles/](dockerfiles)
