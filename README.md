@@ -5,7 +5,7 @@ version 4.04, which is vulnerable to [CVE-2022-30524](https://nvd.nist.gov/vuln/
 
 ## Building the Images 📦
 
-This repository contains the image in 2 flavours:
+This repository contains the image in 3 flavours:
 
 - **bullseye/gcc**: Debian "bullseye", built with gcc
 - **bullseye/afl**: Debian "bullseye", built with afl-clang-fast++ (debug profile)
