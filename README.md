@@ -12,6 +12,10 @@ This repository contains the image in 3 flavours:
 - **focal/afl**: Ubuntu 20.04 LTS (Focal Fossa), built with afl-clang-fast++
   (debug profile)
 
+Flavours that are just aliases to other flavours:
+
+- **bullseye** → **bullseye/gcc**
+
 Their `Dockerfile` are present in their respective directories in [dockerfiles/](dockerfiles)
 directory.
 

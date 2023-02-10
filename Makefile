@@ -8,7 +8,7 @@ SHA256SUM = sha256sum
 
 XPDF_VERSION  = 4.04
 IMAGE_NAME    = interiit/xpdf
-IMAGE_FLAVORS = bullseye/afl bullseye/gcc focal/afl
+IMAGE_FLAVORS = bullseye bullseye/afl bullseye/gcc focal/afl
 
 XPDF_SRC        = xpdf-$(XPDF_VERSION).tar.gz
 SAMPLE_PDFS     = pdfs/dummy.pdf pdfs/poc1
